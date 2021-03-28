@@ -37,7 +37,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app. It was a challenge to determine how does the app look and what additional features it can have besides just determining the tip and total. 
+Describe any challenges encountered while building the app. It was a challenge to determine how does the app look and what additional features it can have besides just determining the tip and total from the tutorial. 
 
 ## License
 
