@@ -13,6 +13,7 @@
 		2C71EF602610243E0098419F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C71EF5E2610243E0098419F /* Main.storyboard */; };
 		2C71EF622610243F0098419F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C71EF612610243F0098419F /* Assets.xcassets */; };
 		2C71EF652610243F0098419F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C71EF632610243F0098419F /* LaunchScreen.storyboard */; };
+		2C71EF6E26102AEA0098419F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C71EF6D26102AEA0098419F /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2C71EF612610243F0098419F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C71EF642610243F0098419F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C71EF662610243F0098419F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C71EF6D26102AEA0098419F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				2C71EF5A2610243E0098419F /* SceneDelegate.swift */,
 				2C71EF5C2610243E0098419F /* ViewController.swift */,
 				2C71EF5E2610243E0098419F /* Main.storyboard */,
+				2C71EF6D26102AEA0098419F /* SettingsViewController.swift */,
 				2C71EF612610243F0098419F /* Assets.xcassets */,
 				2C71EF632610243F0098419F /* LaunchScreen.storyboard */,
 				2C71EF662610243F0098419F /* Info.plist */,
@@ -140,6 +143,7 @@
 				2C71EF5D2610243E0098419F /* ViewController.swift in Sources */,
 				2C71EF592610243E0098419F /* AppDelegate.swift in Sources */,
 				2C71EF5B2610243E0098419F /* SceneDelegate.swift in Sources */,
+				2C71EF6E26102AEA0098419F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
