@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 - [x] Add settings view to set a default tip percentage
 - [x] Tip is calculated automatically after tip percentage or input amount changes
 
-## Video Walkthrough
+## Video Walkthrough (Not Updated to Latest Code)
 
 Here's a walkthrough of implemented user stories:
 
