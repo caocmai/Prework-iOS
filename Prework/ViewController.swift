@@ -23,6 +23,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Tip Calculator"
+        billAmountTextField.delegate = self
+        billAmountTextField.becomeFirstResponder()
+        billAmountTextField.keyboardType = .numberPad
         
         billAmountTextField.addTarget(self, action: #selector(ViewController.textFieldDidChange(_:)),
                                   for: .editingChanged)
@@ -106,3 +109,10 @@ class ViewController: UIViewController {
 
 }
 
+
+extension UIViewController: UITextFieldDelegate{
+    public func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true;
+    }
+}
